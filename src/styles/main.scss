@@ -1,0 +1,20 @@
+// import variables
+@import 'variables/variables';
+
+// import base
+@import 'base/base';
+
+// import layout
+@import 'layout/layout';
+
+// import plugins
+@import 'plugins/plugins';
+
+// import templates
+@import 'templates/templates';
+
+body {
+  background: $primary;
+  color: $secondary;
+  font-family: 'Open Sans', sans-serif;
+}

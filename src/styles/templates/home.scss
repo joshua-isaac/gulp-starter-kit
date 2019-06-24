@@ -1,0 +1,29 @@
+.hero-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  transform: translateX(-50%);
+  text-align: center;
+
+  h1 {
+    color: $headings;
+  }
+
+  a {
+    color: $headings;
+    transition: 0.3s ease;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+
+  ol {
+    li {
+      list-style-type: upper-roman;
+    }
+  }
+
+}
