@@ -18,9 +18,14 @@ yarn || npm install
   const jsConcat = [
     'src/scripts/vendors/first-script-to-load.js',
     'src/scripts/vendors/second-script-to-load.js',
-    'src/scripts/vendors/second-script-to-load.js',
+    'src/scripts/vendors/third-script-to-load.js',
     ...
   ]
+```
+
+4. Run gulp in terminal, and watch the magic happen :^)
+```
+gulp
 ```
 
 
