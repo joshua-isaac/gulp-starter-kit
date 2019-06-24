@@ -20,17 +20,18 @@ const jsConcat = [
 // set up paths
 const paths = {
 
+  // main styles
   mainStyles: {
     src: 'src/styles/main.scss'
   },
 
-  // styles
+  // styles watch all scss
   styles: {
     src: 'src/styles/**/*.scss',
     dest: 'build/css'
   },
 
-  // scripts
+  // scripts watch all .js
   scripts: {
     src: 'src/scripts/**/*.js',
     dest: 'build/js'
@@ -41,6 +42,7 @@ const paths = {
     src: 'build/**/*.html'
   },
 
+  // js
   js: {
     src: '/build/**/*.js'
   }
