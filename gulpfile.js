@@ -25,13 +25,14 @@ const paths = {
     src: 'src/styles/main.scss'
   },
 
-  // styles watch all scss
+  // styles
   styles: {
     src: 'src/styles/**/*.scss',
-    dest: 'build/css'
+    dest: 'build/css',
+    map: 'maps/'
   },
 
-  // scripts watch all .js
+  // scripts
   scripts: {
     src: 'src/scripts/**/*.js',
     dest: 'build/js'
@@ -61,7 +62,7 @@ function style() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('/maps/'))
     // set destination
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(browserSync.stream());
