@@ -1,6 +1,6 @@
 # gulp-starter-kit
 
-This is a Gulp v4 Starter Kit that compiles scss into css, concatenates js files, and minifies both css & js.
+This is a Gulp v4 Starter Kit that compiles scss into css, concatenates js files, and minifies both css & js as well as autoprefix css styles.
 
 ### How It Works
 1. Open directory in terminal.

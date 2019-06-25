@@ -62,7 +62,7 @@ function style() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(sourcemaps.write('/maps/'))
+    .pipe(sourcemaps.write('../maps/'))
     // set destination
     .pipe(gulp.dest(paths.styles.dest))
     .pipe(browserSync.stream());
